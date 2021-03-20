@@ -15,7 +15,7 @@ on:
 env:
   JD_COOKIE: ${{ secrets.JD_COOKIE }}
   PUSH_KEY: ${{ secrets.PUSH_KEY }}
-  UPLOAD_BESULT_DIR: true
+  UPLOAD_BESULT_DIR: false
 
 jobs:
     build:
